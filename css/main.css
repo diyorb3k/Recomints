@@ -317,9 +317,12 @@ main .hero_img .top_main h1 {
   padding-top: 64px;
 }
 main .main_cektion1 .tex {
+  margin-top: 80px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 main .main_cektion1 .tex a {
   font-family: Rubik;
@@ -329,11 +332,237 @@ main .main_cektion1 .tex a {
   text-align: center;
 }
 main .main_cektion1 .tex h2 {
-  font-family: Rubik;
+  font-family: Rubikbold;
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
   text-align: left;
+}
+main .main_cektion1 .cart_blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  max-width: 1208px;
+  width: 100%;
+  gap: 40px;
+  width: 100%;
+}
+main .main_cektion1 .car1 {
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 4px;
+}
+main .main_cektion1 .car1 img {
+  max-width: 265px;
+  padding-right: 1px;
+  text-align: center;
+}
+main .main_cektion1 .car1 .cena_car1 {
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  max-width: 256px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .main_cektion1 .car1 .cena_car1 h3 {
+  font-family: Rubikbold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+main .main_cektion1 .car1 .cena_car1 h4 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+main .main_cektion1 .car1 .cena_car1 p {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgb(191, 191, 191);
+}
+main .main_cektion1 .car1 span {
+  padding-left: 8px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #414141;
+}
+main .main_cektion1 .car1 span br {
+  padding-left: 8px;
+}
+main .main_cektion1 .car1 .layk {
+  padding-top: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+main .main_cektion1 .car1 .corzinka {
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  max-width: 246px;
+  width: 100%;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  width: 100%;
+  transition: 0, 2s ease;
+  cursor: pointer;
+}
+main .main_cektion1 .car1 p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  text-align: center;
+  color: #70c05b;
+}
+main .main_cektion1 p:hover {
+  color: #fff;
+}
+main .main_cektion1 .corzinka:hover {
+  border: 1px solid #ff6633;
+  background-color: #ff6633;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.text_section_tetli h4 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-family: Rubikbold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.bloks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bloks .card_left {
+  display: flex;
+  max-width: 584px;
+  width: 100%;
+  background-color: #fcd5ba;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5019607843);
+}
+.bloks .card_left .car_tex h4 {
+  font-family: Rubikbold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.bloks .card_left .car_tex p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 6px;
+  padding-left: 40px;
+  padding-bottom: 44px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.magazin h3 {
+  font-family: Rubikbold;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.btn-grup {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.btn-grup .btn1 {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  background-color: #70c05b;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-grup .btn2 {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  background-color: #f3f2f1;
+  color: #606060;
+  cursor: pointer;
+}
+.btn-grup .btn2:hover {
+  background-color: #70c05b;
+  background-color: #f3f2f1;
+  transition: 3s all e;
+}
+
+iframe {
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+
+.texT {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.texT h2 {
+  font-family: Rubikbold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.texT a {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.img_card_grup .card1 {
+  max-width: 224px;
 }
 
 @font-face {
