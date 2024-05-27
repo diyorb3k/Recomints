@@ -301,6 +301,7 @@ header {
 }
 // MAIN SECTION
 main {
+  background-color: rgb(241, 237, 219);
   margin-top: 85px;
   .hero_img {
     max-width: 100%;
@@ -373,6 +374,7 @@ main {
       width: 100%;
     }
     .car1 {
+      background-color: #fff;
       box-shadow: 1px 2px 4px 0px #0000001a;
       img {
         max-width: 265px;
@@ -590,10 +592,12 @@ iframe {
   }
 }
 .img_card_grup {
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
   // gap: 50px;
   .card1 {
+    background-color: #fff;
     img {
       width: 100%;
     }

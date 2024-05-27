@@ -280,6 +280,7 @@ header .sayt_logo {
   }
 }
 main {
+  background-color: rgb(241, 237, 219);
   margin-top: 85px;
 }
 main .hero_img {
@@ -349,6 +350,7 @@ main .main_cektion1 .cart_blog {
   width: 100%;
 }
 main .main_cektion1 .car1 {
+  background-color: #fff;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
   border-radius: 4px;
 }
@@ -562,10 +564,12 @@ iframe {
 }
 
 .img_card_grup {
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
 }
 .img_card_grup .card1 {
+  background-color: #fff;
   max-width: 376px;
   box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
   border-radius: 4px;
