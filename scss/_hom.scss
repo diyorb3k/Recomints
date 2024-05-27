@@ -293,7 +293,9 @@ header {
 }
 // MAIN SECTION
 .hero_img {
-  background-image: url(../assets/header.img/header_buton.png);
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  img {
+    width: 100%;
+  }
 }
