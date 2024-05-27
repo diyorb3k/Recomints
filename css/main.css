@@ -271,12 +271,38 @@ header .sayt_logo {
     display: none;
   }
 }
-.hero_img {
+main .hero_img {
   width: 100%;
-  height: 100%;
+  height: 200px; /* Bu elementning balandligi to'liq ekranga teng bo'ladi */
+  background-image: url("../assets/header.img/baground imagess.jpg");
+  background-size: cover; /* Rasmni butun elementga to'ldirish uchun */
+  background-position: center; /* Rasmni markazda joylashtirish uchun */
+  background-repeat: no-repeat; /* Rasmni takrorlanishiga yo'l qo'ymaslik uchun */
+  background-image: url(../assets/header.img/header_buton.png);
 }
-.hero_img img {
+main .hero_img .img1 {
   width: 100%;
+  position: absolute;
+}
+main .hero_img .img2 {
+  position: absolute;
+  padding-left: 30x;
+}
+main .hero_img .dostafki {
+  margin-top: -10px;
+  padding-left: 30px;
+}
+main .hero_img .top_main {
+  padding-left: 60px;
+  display: flex;
+}
+main .hero_img .top_main h1 {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  padding-top: 64px;
 }
 
 @font-face {

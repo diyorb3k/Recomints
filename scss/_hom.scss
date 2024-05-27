@@ -292,10 +292,40 @@ header {
   }
 }
 // MAIN SECTION
-.hero_img {
-  width: 100%;
-  height: 100%;
-  img {
+main {
+  .hero_img {
     width: 100%;
+    height: 200px; /* Bu elementning balandligi to'liq ekranga teng bo'ladi */
+    background-image: url("../assets/header.img/baground\ imagess.jpg");
+    background-size: cover; /* Rasmni butun elementga to'ldirish uchun */
+    background-position: center; /* Rasmni markazda joylashtirish uchun */
+    background-repeat: no-repeat; /* Rasmni takrorlanishiga yo'l qo'ymaslik uchun */
+    background-image: url(../assets/header.img/header_buton.png);
+    .img1 {
+      width: 100%;
+      position: absolute;
+    }
+    .img2 {
+      position: absolute;
+      padding-left: 30x;
+      // margin-top: 60px;
+    }
+    .dostafki {
+      // position: absolute;
+      margin-top: -10px;
+      padding-left: 30px;
+    }
+    .top_main {
+      padding-left: 60px;
+      display: flex;
+      h1 {
+        font-family: Rubik;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        text-align: center;
+        padding-top: 64px;
+      }
+    }
   }
 }
