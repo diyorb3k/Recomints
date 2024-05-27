@@ -297,7 +297,7 @@ main .hero_img .top_main {
   display: flex;
 }
 main .hero_img .top_main h1 {
-  font-family: Rubik;
+  font-family: Rubikbold;
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
@@ -308,6 +308,10 @@ main .hero_img .top_main h1 {
 @font-face {
   font-family: Rubik;
   src: url("../assets/fonts/Rubik-Light.ttf");
+}
+@font-face {
+  font-family: Rubikbold;
+  src: url(../assets/fonts/Rubik-Bold.ttf);
 }
 .container {
   max-width: 1240px;
