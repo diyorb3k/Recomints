@@ -566,10 +566,13 @@ iframe {
   justify-content: space-between;
 }
 .img_card_grup .card1 {
-  max-width: 224px;
+  max-width: 376px;
   box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
   border-radius: 4px;
   overflow: hidden;
+}
+.img_card_grup .card1 img {
+  width: 100%;
 }
 .img_card_grup .card1 p {
   padding: 10px 0px 10px 10px;
